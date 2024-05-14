@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #messages li {
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  .message-container {
+    display: flex;
+  }
+  
+  .message-container .username {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .message-container .message {
+    border-radius: 10px;
+    padding: 5px 10px;
+    max-width: 70%;
+  }
+  
+  .own-message .message {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+  }
+  
+  .other-message .message {
+    background-color: #ededed;
+    align-self: flex-start;
+  }
+  
